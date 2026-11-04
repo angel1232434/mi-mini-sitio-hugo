@@ -1,3 +1,7 @@
-baseURL = 'http://localhost:1313/'
-languageCode = 'es-es'
-title = 'Ángel Pérez | Mi sitio Hugo'
+baseURL = "https://angel1232434.github.io/mini-sitio-hugo/"
+languageCode = "es"
+title = "Mi sitio web práctico"
+publishDir = "html"
+
+[params]
+  descripcion = "Ejercicio de publicación con Hugo y GitHub Pages"

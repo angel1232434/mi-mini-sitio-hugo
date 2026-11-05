@@ -1,7 +1,6 @@
 baseURL = "https://angel1232434.github.io/mi-mini-sitio-hugo/"
 languageCode = "es"
 title = "Mi sitio web práctico"
-publishDir = "html"
 
 [params]
   descripcion = "Ejercicio de publicación con Hugo y GitHub Pages"

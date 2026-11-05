@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | Ángel Pérez</title>
+    <style>
+        body {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #101820;
+            color: #f1f5f9;
+            line-height: 1.7;
+        }
+        h1, h2 {
+            color: #39ff88;
+        }
+        a {
+            color: #39ff88;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="/">← Volver al inicio</a></p>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <hr>
+    <p><a href="https://github.com/angel1232434">Mi perfil de GitHub</a></p>
+</body>
+</html>
